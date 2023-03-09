@@ -1,14 +1,17 @@
-/* configuracoes gerais */
+/**************************************** Configurações Gerais *****************************************************/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 /* importe de fontes */
-
+@font-face {
+    font-family: Inter;
+    src: url(../Assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
 /* Mobile first */
 
-/********* | container-grid |***********/
+/****************************************** Container Grid *********************************************************/
 .container-grid {
     width: 90%;
     margin: 0 auto;
@@ -23,38 +26,75 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-
-/* Menu mobile */
+/********************************************* Menu Mobile *********************************************************/
 .menu-mobile1{
-    background-color: #1B1426;
+    background: linear-gradient(to bottom, rgba(27, 20, 38, 1.0), rgba(27, 20, 38, 0.4));
     height: 90vh;
     width: 80vw;
     position: fixed;
-    left: 0%;
+    left: -80vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .mobile-apenas{
     display: flex;
-    height: 30%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 75%;
     width: 100%;
-    background-color: yellow;
+}
+.mobile-apenas .contato-tele{
+    font-family: Inter;
+    display: block;
+    color: white;
+}
+.mobile-apenas .contato-email{
+    font-family: Inter;
+    display: block;
+    color: white;
+}
+.mobile-apenas .contato-icons{
+    display: flex;
+    justify-content:space-between;
+    width: 95%;
+    margin: 15px 10px;
+}
+.contato{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 110px;
+}
+.icon{
+    height: 40px;
+    width: 40px;
 }
 nav{
     display: flex;
     flex-direction: column;
+    height: 100%;
+    align-items: center;
 }
-nav .contato-tele{
-    display: block;
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-nav .contato-email{
-    display: block;
+.linha{
+    background-color: #F9AA01;
+    border-style: none;
+    height: 3px;
+    width: 100%;
 }
-nav .contato-icons{
-    display: block;
+/**************************************************** Funcionalidades ********************************************************/
+.MostrarMenu {
+    left:0;
 }
-
 /* icones */
 .contato-icons,
 .icon-menu,
