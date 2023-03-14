@@ -155,6 +155,7 @@ nav a {
     right: 0;
 }
 /* icones */
+.logo-pc,
 .contato-icons,
 .contato-tele,
 .contato-email{
@@ -507,4 +508,110 @@ footer p{
     font-family: Titillium-regular;
     font-size: 14px;
     color: white;
+}
+@media screen and (min-width:992px) {
+ /******************************************* Configuracoes gerais ********************************************************/
+.container-grid {
+     max-width: 1440px;
+}
+.menu-mobile{
+    display: none;
+}
+/******************************************* Cabecalho ********************************************************/
+header{
+    height: 140px;
+    position: initial;
+}
+.logo-pc{
+    display: block;
+    width: 195px;
+    height: 55px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+.header-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+.contato-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+    height: 60%;
+}
+.separacao-con{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    color: white;
+}
+.icon2{
+    width: 25px;
+    height: 25px;
+}
+.contato-tele,
+.contato-email{
+    display: flex;
+    align-items: center;
+}
+.menu-mobile1{
+    position: static;
+    background: transparent;
+    backdrop-filter: none;
+    flex-direction: row;
+    height: auto;
+    width: 400px;
+}
+.menu-mobile1 nav {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.menu-mobile1 .linha{
+    display: none;
+}
+.menu-mobile2{
+    position: static;
+    background: transparent;
+    backdrop-filter: none;
+    width: 130px;
+    height: auto;    
+}
+.icon-menu{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mobile-apenas{
+    display: none;
+}
+/******************************************* Banner ********************************************************/
+.banner{
+    background-image: url(../Assets/images/Banner_background_pc.svg);
+    height: 722px;
+}
+/******************************************* Jogos ********************************************************/
+.jogos{
+    height: 500px;
+    flex-direction: row;
+}
+.barra-jogo{
+    height: 81px;
+}
+.selecao-jogo{
+    height: 57px;
+}
+.jogo1,
+.jogo2{
+    width: 556px;
+    height: 313px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 }
