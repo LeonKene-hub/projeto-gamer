@@ -54,7 +54,6 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-
 /********************************************* Menu Mobile1 ******************************************************/
 .menu-mobile1 {
     background: linear-gradient(to bottom, rgba(27, 20, 38, 0.8), rgba(27, 20, 38, 0.4));
@@ -90,6 +89,7 @@ header {
     color: white;
     gap: 10px;
 }
+
 .mobile-apenas .contato-icons {
     display: flex;
     justify-content: space-between;
@@ -172,68 +172,7 @@ nav a {
 
 /**************** Final do Header *******************/
 
-/**************************************************** Area de login ******************************************************/
-.area-login {
-    background-image: url(../Assets/images/Banner_Login-mobile.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: calc(100vh - 60px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.borda-login {
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1));
-    height: 520px;
-    border-radius: 8px;
-    padding: 1px;
-}
-.tela-login {
-    background: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(60, 3, 65, 0.5));
-    backdrop-filter: blur(2px);
-    height: 520px;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-.titilo-login hr {
-    border: 1px solid #F9AA01;
-}
-.titilo-login h2 {
-    font-family: Titillium-black;
-    font-size: 28px;
-    color: white;
-}
-.inputs {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 120px;
-}
-#email-login,
-#senha-login {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
-    width: 220px;
-    height: 44px;
-    border-radius: 8px;
-    border: none;
-    padding: 10px 15px;
-}
-#email-login::placeholder,
-#senha-login::placeholder {
-    color: #ffffff;
-}
-button {
-    background-color: #F9AA01;
-    width: 220px;
-    height: 44px;
-    border-radius: 8px;
-    border: 1px solid #1B1426;
-    font-family: Titillium-bold;
-    font-size: 24px;
-}
+/******************************************************** Cadastro de equipes ********************************************************************/
 
 /***************************************************** Rodapé ************************************************************/
 footer {
@@ -297,6 +236,7 @@ footer aside {
 .footer-b2 li::before {
     content: url(../Assets/icons/Line\ 33.svg);
 }
+
 .footer-b2 ul {
     list-style-type: none;
 }
@@ -340,6 +280,7 @@ footer .digite-email {
     font-size: 24px;
 }
 .footer-final {
+    position: absolute;
     bottom: 1%;
 }
 footer .retorne {
@@ -414,11 +355,11 @@ footer p {
         width: 25px;
         height: 25px;
     }
+
     .contato-tele,
     .contato-email {
         display: flex;
         align-items: center;
-        gap: 10px;
     }
     .menu-mobile1 {
         position: static;
@@ -451,71 +392,7 @@ footer p {
         display: none;
     }
 
-    /**************************************************** Area de login ******************************************************/
-
-    .area-login {
-        background-image: url(../Assets/images/Banner_Login-pc.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: calc(100vh - 140px);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .borda-login {
-        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1));
-        width: 800px;
-        height: 520px;
-        border-radius: 8px;
-        padding: 1px;
-    }
-    .tela-login {
-        background: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(60, 3, 65, 0.5));
-        backdrop-filter: blur(2px);
-        height: 520px;
-        border-radius: 8px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .titilo-login hr {
-        border: 1px solid #F9AA01;
-    }
-    .titilo-login h2 {
-        font-family: Titillium-black;
-        font-size: 40px;
-        color: white;
-    }
-    .inputs {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 120px;
-    }
-    #email-login,
-    #senha-login {
-        background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
-        color: #ffffff;
-        width: 500px;
-        height: 44px;
-        border-radius: 8px;
-        border: none;
-        padding: 10px 15px;
-    }
-    #email-login::placeholder,
-    #senha-login::placeholder {
-        color: #ffffff;
-    }
-    button {
-        background-color: #F9AA01;
-        width: 220px;
-        height: 44px;
-        border-radius: 8px;
-        border: 1px solid #1B1426;
-        font-family: Titillium-bold;
-        font-size: 24px;
-    }
+    /******************************************************** Cadastro de equipes ********************************************************************/
 
     /***************************************************** Rodapé ************************************************************/
     footer {

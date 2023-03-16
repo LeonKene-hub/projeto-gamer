@@ -76,13 +76,17 @@ header{
 }
 .mobile-apenas .contato-tele{
     font-family: Inter;
-    display: block;
+    display: flex;
+    align-items: center;
     color: white;
+    gap: 10px;
 }
 .mobile-apenas .contato-email{
     font-family: Inter;
-    display: block;
+    display: flex;
+    align-items: center;
     color: white;
+    gap: 10px;
 }
 .mobile-apenas .contato-icons{
     display: flex;

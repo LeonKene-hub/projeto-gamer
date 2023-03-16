@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/login.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="CSS/equipes.css">
+    <title>Equipes</title>
 </head>
-
 <body>
     <header>
         <div class="container-grid">
@@ -23,12 +21,12 @@
                 <div class="separacao-con">
                     <a class="contato-tele">
                         <img src="Assets/icons/icone_telefone.svg" alt="contato de telefone">
-                        <span>(11)0900 - 1010</span>
+                        <span> (11)0900 - 1010</span>
                     </a>
 
                     <a class="contato-email">
                         <img src="Assets/icons/icone_email.svg" alt="contato de email">
-                        <span>Contato@Gamer.com.br</span>
+                        <span> Contato@Gamer.com.br</span>
                     </a>
                 </div>
 
@@ -90,22 +88,36 @@
     </header>
 
     <main>
-        <section class="area-login">
-            <div class="borda-login container-grid">
-                <article class="tela-login">
-                    <div class="titilo-login">
-                        <h2>Login</h2>
+        <section class="cadastro-equipe">
+            <div class="borda-equipe container-grid">
+                <article class="tela-equipe">
+                    <div class="titulo-equipe">
+                        <h2>Cadastro de equipes</h2>
                         <hr>
                     </div>
 
-                    <div class="inputs">
-                        <input type="email" placeholder="Digite o seu e-mail:" name="" id="email-login">
-                        <input type="password" placeholder="Digite sua senha:" name="" id="senha-login">
+                    <div class="inputs-equipe">
+                        <input type="text" name="" id="">
+                        <input type="text" name="" id="">
+                        <input type="file" name="" id="">
                     </div>
 
-                    <button>Logar</button>
+                    <button>Cadastrar</button>
                 </article>
             </div>
+        </section>
+        <section class="equipes">
+
+            <div class="mini-header">
+                <p>ID</p><hr>
+                <p>Nome</p><hr>
+                <p>Foto</p><hr>
+            </div>
+            
+            <div class="equipes-salvas">
+                <article class="salvo"></article>
+            </div>
+
         </section>
     </main>
 
@@ -170,5 +182,4 @@
 
     <script src="JS/script.js"></script>
 </body>
-
 </html>
