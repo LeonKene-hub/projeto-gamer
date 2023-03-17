@@ -174,10 +174,10 @@ nav a {
 
 /******************************************************** Cadastro de equipes ********************************************************************/
 main{
-    background-image: url(../Assets/images/Banner_cadastro_de_Equipe-mobile.png);
+    background-image: url(../Assets/images/banner_cadastro_de_jogador.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 920px;
+    height: 1300px;
 }
 .camada-blur{
     backdrop-filter: blur(5px);
@@ -189,15 +189,15 @@ main{
 }
 .borda-equipe{
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.4), rgba(60, 3, 65, 0.2));
-    height: 431px;
+    height: 550px;
     border-radius: 8px;
     padding: 1px;
 }
 .tela-equipe{
-    background: linear-gradient(to right bottom, rgba(27, 20, 38, 0.5), rgba(60, 3, 65, 0.2));
-    height: 431px;
+    background: linear-gradient(to right bottom, rgba(27, 20, 38, 0.6), rgba(60, 3, 65, 0.38));
+    height: 550px;
     border-radius: 8px;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(1px);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -221,14 +221,13 @@ main{
     align-self: center;
 }
 .inputs-equipe{
-    height: 164px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
-#id-equipe,
-#nome-equipe{
+#inputs-cadastro{
     background: linear-gradient(to right,rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.3));
     color: white;
     width: 290px;
@@ -237,20 +236,8 @@ main{
     padding: 10px 15px;
     border: none;
 }
-#id-equipe::placeholder,
-#nome-equipe::placeholder{
+#inputs-cadastro{
     color: white;
-}
-#img-equipe{
-    width: 290px;
-    height: 40px;
-    color: white;
-}
-input::file-selector-button {
-    width: 110px;
-    height: 40px;
-    border-radius: 8px;
-    border: none;
 }
 button{
     background-color: #F9AA01;
@@ -278,14 +265,14 @@ button{
     text-transform: uppercase;
 }
 .equipes{
-    height: 320px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .equipes-salvas{
     width: 353px;
-    height: 216px;
+    height: 270px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -316,7 +303,6 @@ button{
 .salvo p{
     font-family: Titillium-regular;
     font-size: 20px;
-    text-transform: uppercase;
 }
 .deletar{
     width: 12px;
@@ -542,7 +528,7 @@ footer p {
 
     /******************************************************** Cadastro de equipes ********************************************************************/
     main{
-        background-image: url(../Assets/images/banner_cadastro_de_equipe-PC.png);
+        background-image: url(../Assets/images/banner_cadastro_de_jogador.png);
         background-repeat: no-repeat;
         background-size: cover;
         height: 1370px;
@@ -562,13 +548,9 @@ footer p {
         height: 200px;
     }
     #id-equipe,
-    #nome-equipe,
-    #img-equipe{
+    #nome-equipe{
         width: 500px;
         height: 45px;
-    }
-    input::file-selector-button{
-        width: 250px;
     }
     .mini-header{
         width: 800px;
