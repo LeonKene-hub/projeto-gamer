@@ -482,6 +482,7 @@ footer .digite-email{
     border-radius: 8px;
     border: none;
     padding: 10px 15px;
+    color: white;
     background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4));
 }
 .digite-email::placeholder{
@@ -588,6 +589,9 @@ header{
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+}
+nav a:hover {
+    color: #F9AA01;
 }
 .menu-mobile1 .linha{
     display: none;

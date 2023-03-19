@@ -172,7 +172,7 @@ nav a {
 
 /**************** Final do Header *******************/
 
-/******************************************************** Cadastro de equipes ********************************************************************/
+/******************************************************** Cadastro de jogadores ********************************************************************/
 main{
     background-image: url(../Assets/images/banner_cadastro_de_jogador.png);
     background-repeat: no-repeat;
@@ -220,7 +220,7 @@ main{
     width: 230px;
     align-self: center;
 }
-.inputs-equipe{
+.inputs-jogadores{
     height: 250px;
     display: flex;
     flex-direction: column;
@@ -235,9 +235,6 @@ main{
     border-radius: 8px;
     padding: 10px 15px;
     border: none;
-}
-#inputs-cadastro{
-    color: white;
 }
 button{
     background-color: #F9AA01;
@@ -264,13 +261,13 @@ button{
     font-size: 20px;
     text-transform: uppercase;
 }
-.equipes{
+.jogadores{
     height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.equipes-salvas{
+.jogadores-salvos{
     width: 353px;
     height: 270px;
     display: flex;
@@ -398,6 +395,7 @@ footer .digite-email {
     border-radius: 8px;
     border: none;
     padding: 10px 15px;
+    color: white;
     background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4));
 }
 .digite-email::placeholder {
@@ -489,7 +487,6 @@ footer p {
         width: 25px;
         height: 25px;
     }
-
     .contato-tele,
     .contato-email {
         display: flex;
@@ -507,6 +504,9 @@ footer p {
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
+    }
+    nav a:hover {
+        color: #F9AA01;
     }
     .menu-mobile1 .linha {
         display: none;
@@ -526,7 +526,7 @@ footer p {
         display: none;
     }
 
-    /******************************************************** Cadastro de equipes ********************************************************************/
+    /******************************************************** Cadastro de jogadores ********************************************************************/
     main{
         background-image: url(../Assets/images/banner_cadastro_de_jogador.png);
         background-repeat: no-repeat;
@@ -544,11 +544,10 @@ footer p {
     .tela-equipe hr{
         width: 350px;
     }
-    .inputs-equipe{
-        height: 200px;
+    .inputs-jogadores{
+        height: 270px;
     }
-    #id-equipe,
-    #nome-equipe{
+    #inputs-cadastro{
         width: 500px;
         height: 45px;
     }
@@ -558,11 +557,11 @@ footer p {
     .mini-header p{
         font-size: 40px;
     }
-    .equipes-salvas{
+    .jogadores-salvos{
         width: 800px;
         height: 440px;
     }
-    .equipes{
+    .jogadores{
         height: 515px;
     }
     .borda-salvo,
@@ -575,6 +574,10 @@ footer p {
     }
     .salvo hr{
         height: 95px;
+    }
+    .deletar{
+        width: 25px;
+        height: 25px;
     }
     /***************************************************** Rodapé ************************************************************/
     footer {
