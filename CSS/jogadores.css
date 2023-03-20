@@ -227,7 +227,7 @@ main{
     align-items: center;
     justify-content: space-between;
 }
-#inputs-cadastro{
+.inputs-cadastro{
     background: linear-gradient(to right,rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.3));
     color: white;
     width: 290px;
@@ -235,6 +235,13 @@ main{
     border-radius: 8px;
     padding: 10px 15px;
     border: none;
+}
+.inputs-cadastro::placeholder{
+    color: white;
+}
+.inputs-cadastro:focus{
+    background: #1B1426;
+    color: #F9AA01;
 }
 button{
     background-color: #F9AA01;
@@ -367,9 +374,13 @@ footer aside {
 .footer-b2 li::before {
     content: url(../Assets/icons/Line\ 33.svg);
 }
-
+.footer-b2 li{
+    width: 110px;
+}
 .footer-b2 ul {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 .footer-b2 a {
     font-family: Titillium-bold;
@@ -547,7 +558,7 @@ footer p {
     .inputs-jogadores{
         height: 270px;
     }
-    #inputs-cadastro{
+    .inputs-cadastro{
         width: 500px;
         height: 45px;
     }
@@ -608,6 +619,10 @@ footer p {
     .footer-b1 p {
         font-size: 16px;
         text-align: justify;
+    }
+    .footer-b2 ul {
+        display: block;
+        flex-wrap: nowrap;
     }
     footer aside {
         width: 80%;

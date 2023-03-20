@@ -455,8 +455,13 @@ footer aside{
 .footer-b2 li::before{
     content: url(../Assets/icons/Line\ 33.svg);
 }
+.footer-b2 li{
+    width: 110px;
+}
 .footer-b2 ul{
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 .footer-b2 a{
     font-family: Titillium-bold;
@@ -519,6 +524,10 @@ footer p{
     font-family: Titillium-regular;
     font-size: 14px;
     color: white;
+}
+input:focus{
+    background: #1B1426;
+    color: #F9AA01;
 }
 
 /**************************************************************************************************************************************************************/
@@ -742,6 +751,10 @@ footer {
 .footer-b1 p{
     font-size: 16px;
     text-align: justify;
+}
+.footer-b2 ul {
+    display: block;
+    flex-wrap: nowrap;
 }
 footer aside{
     width: 80%;
