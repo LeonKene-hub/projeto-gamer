@@ -118,6 +118,7 @@ nav a {
     color: white;
     margin-top: 30px;
     margin-bottom: 30px;
+    border-radius: 8px;
 }
 .linha{
     background-color: #F9AA01;
@@ -233,9 +234,14 @@ nav a {
     justify-content: center;
     align-items: center;
 }
+.selecao-jogo{
+    transform: skew(-45deg);
+}
 .selecao-jogo h3 {
     font-family: Titillium-Semibold;
     font-size: 15px;
+    transform: skew(45deg);
+
 }
 /***************************************************** Entre para o time progamer************************************************************/
 .entretime {

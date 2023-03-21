@@ -91,7 +91,7 @@
         <div class="camada-blur">
             <section class="cadastro-equipe">
                 <div class="borda-equipe container-grid">
-                    <article class="tela-equipe">
+                    <form class="tela-equipe">
                         <div class="titulo-equipe">
                             <h2>Cadastro de jogador</h2>
                             <hr>
@@ -99,14 +99,19 @@
     
                         <div class="inputs-jogadores">
                             <input type="text" name="" id="!" class="inputs-cadastro" placeholder="Digite o ID do jogador:">
-                            <input type="text" name="" id="!@" class="inputs-cadastro" placeholder="selecione sua equipe:">
+                            <select class="inputs-cadastro">
+                                <option value="0">Selecione o time</option>
+                                <option value="equipe1">Time vermelho</option>
+                                <option value="equipe2">Time azul</option>
+                                <option value="equipe3">Time amarelo</option>
+                            </select>
                             <input type="text" name="" id="!#" class="inputs-cadastro" placeholder="Digite o nome do jogador:">
                             <input type="email" name="" id="!%" class="inputs-cadastro" placeholder="Digite o email do jogador:">
                             <input type="password" name="" id="!^" class="inputs-cadastro" placeholder="Digite a senha:">
                         </div>
     
                         <button>Cadastrar</button>
-                    </article>
+                    </form>
                 </div>
             </section>
     
