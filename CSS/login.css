@@ -177,6 +177,7 @@ nav a {
     background-image: url(../Assets/images/Banner_Login-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
+    backdrop-filter: blur(5px);
     height: calc(100vh - 60px);
     display: flex;
     justify-content: center;
@@ -215,11 +216,21 @@ nav a {
 #email-login,
 #senha-login {
     background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
-    width: 220px;
+    width: 290px;
     height: 44px;
     border-radius: 8px;
     border: none;
     padding: 10px 15px;
+}
+#email-login::placeholder{
+    background-image: url(../Assets/icons/Vectoruser-login.svg);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+#senha-login::placeholder{
+    background-image: url(../Assets/icons/Vectorpassword-login.svg);
+    background-repeat: no-repeat;
+    padding-left: 30px;
 }
 #email-login::placeholder,
 #senha-login::placeholder {
@@ -232,7 +243,7 @@ nav a {
 }
 button {
     background-color: #F9AA01;
-    width: 220px;
+    width: 290px;
     height: 44px;
     border-radius: 8px;
     border: 1px solid #1B1426;
@@ -389,6 +400,17 @@ input:focus{
     }
     .menu-mobile {
         display: none;
+    }
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track{
+        background-color: #ff0043;
+        border-radius: 30px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: black;
+        border-radius: 30px;
     }
 
     /******************************************* Cabecalho ********************************************************/

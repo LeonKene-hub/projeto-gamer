@@ -474,7 +474,17 @@ footer p {
     .menu-mobile {
         display: none;
     }
-
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track{
+        background-color: #ff0043;
+        border-radius: 30px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: black;
+        border-radius: 30px;
+    }
     /******************************************* Cabecalho ********************************************************/
     header {
         height: 140px;
@@ -583,6 +593,8 @@ footer p {
     }
     input::file-selector-button{
         width: 250px;
+        background-color: #1B1426;
+        color: white;
     }
     .mini-header{
         width: 800px;
