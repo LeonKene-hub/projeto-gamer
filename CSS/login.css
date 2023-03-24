@@ -423,14 +423,20 @@ input:focus{
         width: 195px;
         height: 55px;
     }
-    .header-top {
+    .header-top{
+        border-bottom: 2px solid #F9AA01;
+    }
+    .header-top-flex{
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 50px;
-        width: 100%;
     }
-    .header-bottom {
+    .header-bottom{
+        height: 88px;
+        border-bottom: 2px solid #F9AA01;
+    }
+    .header-bottom-flex{
         display: flex;
         align-items: center;
         justify-content: space-between;

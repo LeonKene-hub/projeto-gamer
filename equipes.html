@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="CSS/equipes.css">
     <title>Equipes</title>
 </head>
+
 <body>
     <header>
         <div class="container-grid">
@@ -15,9 +17,10 @@
                 <img src="Assets/images/logotipo-gamer.svg" alt="logotipo">
                 <img src="Assets/icons/menu-pontilhado-icon.svg" alt="opcoes de contato" onclick="MostrarMenu2()">
             </div>
-
-            <!------------------------ parte de cima ------------------------->
-            <div class="header-top">
+        </div>
+        <!------------------------ parte de cima ------------------------->
+        <div class="header-top">
+            <div class="header-top-flex container-grid">
                 <div class="separacao-con">
                     <a class="contato-tele">
                         <img src="Assets/icons/icone_telefone.svg" alt="contato de telefone">
@@ -36,9 +39,11 @@
                     <img src="Assets/icons/insta-icon.svg" alt="instagram">
                 </div>
             </div>
+        </div>
 
-            <!----------------------- parte de baixo ------------------------>
-            <div class="header-bottom">
+        <!----------------------- parte de baixo ------------------------>
+        <div class="header-bottom">
+            <div class="header-bottom-flex container-grid">
                 <img src="Assets/images/logotipo-gamer.svg" alt="" class="logo-pc">
                 <!-- ------------------------ Menus Mobiles ------------------------------->
                 <aside class="menu-mobile1" id="menu-mobile1">
@@ -85,6 +90,7 @@
                 </aside>
             </div>
         </div>
+
     </header>
 
     <main>
@@ -96,42 +102,60 @@
                             <h2>Cadastro de equipes</h2>
                             <hr>
                         </div>
-    
+
                         <div class="inputs-equipe">
                             <input type="text" name="" id="id-equipe" placeholder="Digite o ID da sua equipe:">
                             <input type="text" name="" id="nome-equipe" placeholder="Digite o nome da sua equipe:">
                             <input type="file" name="" id="img-equipe">
                         </div>
-    
+
                         <button>Cadastrar</button>
                     </article>
                 </div>
             </section>
-    
+
             <section class="equipes">
                 <div class="mini-header container-grid">
-                    <p>ID</p> <hr>
-                    <p>Nome</p> <hr>
-                    <p>Foto</p> <hr>
+                    <p>ID</p>
+                    <hr>
+                    <p>Nome</p>
+                    <hr>
+                    <p>Foto</p>
+                    <hr>
                     <img src="" alt="">
                 </div>
-                
+
                 <div class="equipes-salvas container-grid">
                     <div class="borda-salvo">
                         <article class="salvo">
-                            <p>1</p> <hr> <p>Loud</p> <hr> <p></p> <hr> <img src="Assets/icons/lixeira.svg" alt="deletar" class="deletar">
+                            <p>1</p>
+                            <hr>
+                            <p>Loud</p>
+                            <hr>
+                            <p></p>
+                            <hr> <img src="Assets/icons/lixeira.svg" alt="deletar" class="deletar">
                         </article>
                     </div>
-    
+
                     <div class="borda-salvo">
                         <article class="salvo">
-                            <p>1</p> <hr> <p>Loud</p> <hr> <p></p> <hr> <img src="Assets/icons/lixeira.svg" alt="deletar" class="deletar">
+                            <p>1</p>
+                            <hr>
+                            <p>Loud</p>
+                            <hr>
+                            <p></p>
+                            <hr> <img src="Assets/icons/lixeira.svg" alt="deletar" class="deletar">
                         </article>
                     </div>
-    
+
                     <div class="borda-salvo">
                         <article class="salvo">
-                            <p>1</p> <hr> <p>Loud</p> <hr> <p></p> <hr> <img src="Assets/icons/lixeira.svg" alt="deletar" class="deletar">
+                            <p>1</p>
+                            <hr>
+                            <p>Loud</p>
+                            <hr>
+                            <p></p>
+                            <hr> <img src="Assets/icons/lixeira.svg" alt="deletar" class="deletar">
                         </article>
                     </div>
                 </div>
@@ -200,4 +224,5 @@
 
     <script src="JS/script.js"></script>
 </body>
+
 </html>
